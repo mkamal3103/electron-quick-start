@@ -18,5 +18,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^26.3.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }
