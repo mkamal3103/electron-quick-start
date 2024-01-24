@@ -59,7 +59,167 @@ const DeviceData = [
   ["100046", "BE2EC385C2B04EE2809C7620011A253D"],
   ["100047", "27C39D5F331D72314DE280A6C2B26CC2"],
   ["100048", "B2C3A924C3952C31C3B201C2A94BC39A"],
-  ["100049", "2936C39C31C39D6328C3BB45C2BC4F25"]
+  ["100049", "2936C39C31C39D6328C3BB45C2BC4F25"],
+  ["100050", "B9C389C692C3A2C3BFC2B1C394632A79"],
+  ["100051", "C3AC5C4AC3BBC2BBC5BDC2B0C2ACC2BF"],
+  ["100052", "E280BA13C5A05BC398635619C3AFC3AB"],
+  ["100053", "E280A04728555A334AC396547CC384C3"],
+  ["100054", "B93AC3B6C3994248C39825C38EC2BCC3"],
+  ["100055", "B46CC380CB860BC3A1C39A73C2AB09C2"],
+  ["100056", "B20D0ACB86C2B4C5A04D78C2A0C5BEC2"],
+  ["100057", "AA7E63140BC2A1C3A21FC3A9C5BE2242"],
+  ["100058", "C3BEC39BC5BDCB86C386C3BCC39EC2AA"],
+  ["100059", "E28093C593C38170C3A1743EC3B5C2BA"],
+  ["100060", "2D1D21C398C3BF78C28FC2AE1CC5B875"],
+  ["100061", "CB8659C39CC2902CC3817B6B2AE284A2"],
+  ["100062", "3BC38247C5A0E280B0C393C2A4C3A4C3"],
+  ["100063", "8FC39979C2B3C3BC66C3B6C3B425E280"],
+  ["100064", "93594D0BC2A7C38EC3A55114C2B1E280"],
+  ["100065", "A151346FE2809EC2BF041B3FC29DC38F"],
+  ["100066", "3515C3B3E2809DC39143C3907AC3931F"],
+  ["100067", "C38072C3A837E28098C2A7C2B3E280A0"],
+  ["100068", "0E47C39E66C3AB3EE28098C3A473C3A4"],
+  ["100069", "2CC3AF04C3B5120B20E28094C2A628E2"],
+  ["100070", "809AC2B377C3AAE2809869C39514C382"],
+  ["100071", "C2A1C3933240C3936EE280A1C2B3C3B7"],
+  ["100072", "600F266AC389C3A6C2A6C2A6C2B30311"],
+  ["100073", "25CB86C2A84B3FC2A77CC3BEC3A946C2"],
+  ["100074", "A3C2A0C39FC3AC2737C3A536707DC2B6"],
+  ["100075", "C3B802C2B845C2B1C39807C2A0C3867B"],
+  ["100076", "29127C27C3AAC2AC136EC3B2C3A9C3B3"],
+  ["100077", "C3ABC381470D0A31C2A7C39769C5A0C3"],
+  ["100078", "ACC2B4C2BB2FC386C5A1C2A5C3B2C3A1"],
+  ["100079", "66C2A12966E2809AE2809E15E280A0C2"],
+  ["100080", "A8C39805082BC29DC3BA2970C2B76104"],
+  ["100081", "A4595BC3B1211A11C2817C727219C3A1"],
+  ["100082", "31C290C3B875C384C29D32C386C38135"],
+  ["100083", "C2BD54C2B0116FC3844C7841C2B2C396"],
+  ["100084", "046BC3861E0EE280A2C2B23EC2BEC2B0"],
+  ["100085", "C394517A4A2111C3AC034F022113C3AE"],
+  ["100086", "C38FC692C28DC38D40C2AF61C3BC5448"],
+  ["100087", "C3A3C2A2C2A1C2A5C2B0CB9C1913C389"],
+  ["100088", "4AC2A0671272C38FE280980CC3A25B72"],
+  ["100089", "C3996E24C2AFE280983E4AC2A9C28103"],
+  ["100090", "576FC385C2B45D6EC3A6C28DC3A94016"],
+  ["100091", "5AC3B6C2BB5FC5A0300BC38DC2B013C2"],
+  ["100092", "B1C2BBC2B9796523E280A055C2A9E280"],
+  ["100093", "C2ACC2B74B2861E2809DC5924F3FC281"],
+  ["100094", "C3B93AC2ACC2AFC29D41C5BEC389C2B1"],
+  ["100095", "C3A83462CB8656C5B8C5BE73616C2741"],
+  ["100096", "C3816C2CC2AC38C28DC2812F184931E2"],
+  ["100097", "80A0C38FC3800B162DC2A27D33474942"],
+  ["100098", "75C3B5C3ACC2B3C2AEE280A1E282ACC2"],
+  ["100099", "8DC38EC692C3BF07C3A5E280A6C397C2"],
+  ["100100", ""],
+  ["100101", ""],
+  ["100102", ""],
+  ["100103", ""],
+  ["100104", ""],
+  ["100105", ""],
+  ["100106", ""],
+  ["100107", ""],
+  ["100108", ""],
+  ["100109", ""],
+  ["100110", ""],
+  ["100111", ""],
+  ["100112", ""],
+  ["100113", ""],
+  ["100114", ""],
+  ["100115", ""],
+  ["100116", ""],
+  ["100117", ""],
+  ["100118", ""],
+  ["100119", ""],
+  ["100120", ""],
+  ["100121", ""],
+  ["100122", ""],
+  ["100123", ""],
+  ["100124", ""],
+  ["100125", ""],
+  ["100126", ""],
+  ["100127", ""],
+  ["100128", ""],
+  ["100129", ""],
+  ["100130", ""],
+  ["100131", ""],
+  ["100132", ""],
+  ["100133", ""],
+  ["100134", ""],
+  ["100135", ""],
+  ["100136", ""],
+  ["100137", ""],
+  ["100138", ""],
+  ["100139", ""],
+  ["100140", ""],
+  ["100141", ""],
+  ["100142", ""],
+  ["100143", ""],
+  ["100144", ""],
+  ["100145", ""],
+  ["100146", ""],
+  ["100147", ""],
+  ["100148", ""],
+  ["100149", ""],
+  ["100150", ""],
+  ["100151", ""],
+  ["100152", ""],
+  ["100153", ""],
+  ["100154", ""],
+  ["100155", ""],
+  ["100156", ""],
+  ["100157", ""],
+  ["100158", ""],
+  ["100159", ""],
+  ["100160", ""],
+  ["100161", ""],
+  ["100162", ""],
+  ["100163", ""],
+  ["100164", ""],
+  ["100165", ""],
+  ["100166", ""],
+  ["100167", ""],
+  ["100168", ""],
+  ["100169", ""],
+  ["100170", ""],
+  ["100171", ""],
+  ["100172", ""],
+  ["100173", ""],
+  ["100174", ""],
+  ["100175", ""],
+  ["100176", ""],
+  ["100177", ""],
+  ["100178", ""],
+  ["100179", ""],
+  ["100180", ""],
+  ["100181", ""],
+  ["100182", ""],
+  ["100183", ""],
+  ["100184", ""],
+  ["100185", ""],
+  ["100186", ""],
+  ["100187", ""],
+  ["100188", ""],
+  ["100189", ""],
+  ["100190", ""],
+  ["100191", ""],
+  ["100192", ""],
+  ["100193", ""],
+  ["100194", ""],
+  ["100195", ""],
+  ["100196", ""],
+  ["100197", ""],
+  ["100198", ""],
+  ["100199", ""],
+  ["100200", ""],
+  ["100201", ""],
+  ["100202", ""],
+  ["100203", ""],
+  ["100204", ""],
+  ["100205", ""],
+  ["100206", ""],
+  ["100207", ""],
+  ["100208", ""],
+  ["100209", ""]
 ];
 
 
@@ -121,7 +281,7 @@ function ascii_to_hexa(str) {
 	return arr1.join('');
 }
 
-const LogsSelector = 0 // 0 -> My Logs, 1 -> Client Logs
+const LogsSelector = 2 // 0 -> My Logs, 1 -> Client Logs, 2 -> From veraut Data Logger
 
 class Contact {
     constructor(topic = "", stationNumber="", meterNumber="", data="") {
@@ -133,10 +293,29 @@ class Contact {
     saveAsCSV() {
         const csv = `${this.topic},${this.stationNumber},${this.meterNumber},${this.data}\n`;
         try {
-            if (LogsSelector)
-              appendFileSync("./dataClientLogs.csv", csv);
-            else
-              appendFileSync("./dataMyLogs.csv", csv);
+            switch (LogsSelector) {
+              /***************************************  BC660K Logs *****************************************/
+              case 0:
+                appendFileSync("./dataMyLogs.csv", csv);
+                break;
+              
+              /***************************************  ENERGIE AG Logs *****************************************/
+              case 1:
+                appendFileSync("./dataClientLogs.csv", csv);
+                  break;
+          
+            /***************************************  Veraut Data Logger Logs *****************************************/
+            case 2:
+                appendFileSync("./dataVerautLoggerLogs.csv", csv);
+                  break;
+          
+                default:
+                  break;
+            }
+            // if (LogsSelector)
+            //   appendFileSync("./dataClientLogs.csv", csv);
+            // else
+            //   appendFileSync("./dataMyLogs.csv", csv);
           } catch (err) {
             console.error(err);
         }
@@ -150,6 +329,45 @@ class Contact {
 //     const contact2 = new Contact("Steve", "+00987654321", "steve@codingthesmartway.com");
 //     contact2.saveAsCSV();
 // }
+
+function extractDataFromVerautLogger(dataLogs) {
+  // console.log("The file content is : " + data);
+  var totalRecords = 0;
+  var failedRecords = 0;
+  var theString = dataLogs.split("\n");
+  console.log("Data present: " + (theString.length - 1));
+  let totalrowsLen = theString.length - 1;
+  let timeStampString;
+  for (let index = totalrowsLen; index >= 0; index--) {
+    totalRecords++;
+    const currentRow = theString[index];
+    // console.log("current row: " + currentRow);
+    if (currentRow.includes(";")) {
+      const saveTimeStamp = timeStampString.replaceAll('\r', '');
+      if (currentRow.includes(";LVL;") && currentRow.includes(";ERR;")) {
+        const contact1 = new Contact(saveTimeStamp, "Debug", "", currentRow);
+        contact1.saveAsCSV();          
+      }
+      else if (currentRow.includes(";SQ;")) {
+        const contact1 = new Contact(saveTimeStamp, "Data", "", currentRow);
+        contact1.saveAsCSV();          
+      }
+      else {
+        failedRecords++;
+      }
+    }
+    else {
+      timeStampString = "";
+      timeStampString = currentRow.replaceAll('\n', '');
+      // console.log("time string: " + timeStampString);
+
+    }
+  }
+  console.log("Records Failed: " + failedRecords + " / " + totalRecords);
+}
+
+
+
 
 function extractDataFromMyLogs(dataLogs) {
   // console.log("The file content is : " + data);
@@ -234,6 +452,8 @@ function extractDataFromMyLogs(dataLogs) {
         else if (mytopics[1].includes("debug")) {
           finalData = myIV.substring(6, 8) + "." + myIV.substring(8, 10) + ".20" + myIV.substring(10, 12) + ";" + myIV.substring(12, 14) + ":" + myIV.substring(14, 16) + ":00;" + realData;   
         }
+        else
+          continue;
       }
       let extData = finalData.split("\n");
       for (m = 0; m < extData.length; m++) {
@@ -321,17 +541,18 @@ function extractDataFromClientLogs(dataLogs) {
           continue;
         }
 
-        // var tempstrsub1 = newStr[3];
-        // var strsub1 = tempstrsub1.replaceAll("\"", "");
-        var strsub1 = newStr[1];
-
         var realData;
         let finalData;
-        if (DeviceData[deviceNumber][1].includes("None")) {
+        var strsub1 = newStr[1];
+        if (/*DeviceData[deviceNumber][1].includes("None")*/ strsub1.includes(";") 
+                                                            || strsub1.includes(".") 
+                                                            || strsub1.includes(",") 
+                                                            // || strsub1.includes("H") 
+                                                            // || strsub1.includes("F")
+                                                            || strsub1.includes(":")) {
           if (mytopics[1].includes("config")) {
-            // let tempstrsub2 = newStr[4];
-            // finalData = tempstrsub2.replaceAll("\"", "");
-            finalData = strsub1;
+            let tempstrsub2 = newStr[4];
+            finalData = tempstrsub2.replaceAll("\"", "");
             NonEncryptData = 0;
             console.log("<-- Line [%d], str {%s} -->\r\n", (i + 1), str);
             continue;
@@ -341,6 +562,24 @@ function extractDataFromClientLogs(dataLogs) {
             NonEncryptData = 1;
           }
         }
+
+        // var tempstrsub1 = newStr[3];
+        // var strsub1 = tempstrsub1.replaceAll("\"", "");
+
+        // if (DeviceData[deviceNumber][1].includes("None")) {
+        //   if (mytopics[1].includes("config")) {
+        //     // let tempstrsub2 = newStr[4];
+        //     // finalData = tempstrsub2.replaceAll("\"", "");
+        //     finalData = strsub1;
+        //     NonEncryptData = 0;
+        //     console.log("<-- Line [%d], str {%s} -->\r\n", (i + 1), str);
+        //     continue;
+        //   }
+        //   else {
+        //     finalData = strsub1;
+        //     NonEncryptData = 1;
+        //   }
+        // }
         else {
           NonEncryptData = 0;
           const myIV = strsub1.substring(0, 16);
@@ -421,13 +660,30 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
         return;
     }
     
-    /***************************************  ENERGIE AG Logs *****************************************/
-    if (LogsSelector)
-      extractDataFromClientLogs(data);
-
+    switch (LogsSelector) {
     /***************************************  BC660K Logs *****************************************/
-    else
-      extractDataFromMyLogs(data);
+    case 0:
+        extractDataFromMyLogs(data);
+        break;
+    
+    /***************************************  ENERGIE AG Logs *****************************************/
+    case 1:
+        extractDataFromClientLogs(data);
+        break;
+
+   /***************************************  Veraut Data Logger Logs *****************************************/
+   case 2:
+        extractDataFromVerautLogger(data);
+        break;
+
+      default:
+        break;
+    }
+    // if (LogsSelector)
+    //   extractDataFromClientLogs(data);
+
+    // else
+    //   extractDataFromMyLogs(data);
 
 
     // console.log("The file content is : " + data);
