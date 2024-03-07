@@ -4,7 +4,7 @@ var CryptoJS = require("crypto-js");
 const path = require('node:path')
 var fs = require('fs'); // Load the File System to execute our common tasks (CRUD)
 var {appendFileSync} = require('fs'); //
-const { Console } = require('node:console');
+const { Console, count } = require('node:console');
 // var appendFileSync = 
 // import { appendFileSync } from "fs";
 
@@ -281,7 +281,7 @@ function ascii_to_hexa(str) {
 	return arr1.join('');
 }
 
-const LogsSelector = 2 // 0 -> My Logs, 1 -> Client Logs, 2 -> From veraut Data Logger
+const LogsSelector = 1 // 0 -> My Logs, 1 -> Client Logs, 2 -> From veraut Data Logger
 
 class Contact {
     constructor(topic = "", stationNumber="", meterNumber="", data="") {
@@ -365,9 +365,6 @@ function extractDataFromVerautLogger(dataLogs) {
   }
   console.log("Records Failed: " + failedRecords + " / " + totalRecords);
 }
-
-
-
 
 function extractDataFromMyLogs(dataLogs) {
   // console.log("The file content is : " + data);
@@ -501,7 +498,6 @@ function extractDataFromMyLogs(dataLogs) {
   console.log("Records Failed: " + failedRecords + " / " + totalRecords);
 }
 
-
 function extractDataFromClientLogs(dataLogs) {
     // console.log("The file content is : " + data);
     var totalRecords = 0;
@@ -523,7 +519,8 @@ function extractDataFromClientLogs(dataLogs) {
 
         // var tempstrsub = newStr[2];
         // var strsub = tempstrsub.replaceAll("\"", "");
-        var strsub = newStr[0];
+        var timeStamp = newStr[0];
+        var strsub = newStr[1];
 
         mytopics = strsub.split("/");
 
@@ -543,7 +540,9 @@ function extractDataFromClientLogs(dataLogs) {
 
         var realData;
         let finalData;
-        var strsub1 = newStr[1];
+        var strsub1 = newStr[2];
+        // console.log("strsub1: " + strsub1 + ", newStr[2]: " + newStr[2] + "\r\n\r\n\r\n\r\n" + "len: " + strsub1.length + "\r\n");
+        if (strsub1.length < 5) continue;
         if (/*DeviceData[deviceNumber][1].includes("None")*/ strsub1.includes(";") 
                                                             || strsub1.includes(".") 
                                                             || strsub1.includes(",") 
@@ -551,11 +550,11 @@ function extractDataFromClientLogs(dataLogs) {
                                                             // || strsub1.includes("F")
                                                             || strsub1.includes(":")) {
           if (mytopics[1].includes("config")) {
-            let tempstrsub2 = newStr[4];
-            finalData = tempstrsub2.replaceAll("\"", "");
+            finalData = newStr[2];
+            // finalData = tempstrsub2.replaceAll("\"", "");
             NonEncryptData = 0;
-            console.log("<-- Line [%d], str {%s} -->\r\n", (i + 1), str);
-            continue;
+            // console.log("<-- Line [%d], str {%s} -->\r\n", (i + 1), str);
+            // continue;
           }
           else {
             finalData = strsub1;
@@ -604,9 +603,11 @@ function extractDataFromClientLogs(dataLogs) {
             finalData = myIV.substring(6, 8) + "." + myIV.substring(8, 10) + ".20" + myIV.substring(10, 12) + ";" + myIV.substring(12, 14) + ":" + myIV.substring(14, 16) + ":00;" + realData;   
           }
         }
+
         let extData = finalData.split("\n");
         for (m = 0; m < extData.length; m++) {
-          const contact1 = new Contact(mytopics[1], mytopics[2], (mytopics[3] != undefined? mytopics[3] : ""), extData[m]);
+          let tempStartString = timeStamp + "|" + mytopics[1];
+          const contact1 = new Contact(tempStartString, mytopics[2], (mytopics[3] != undefined? mytopics[3] : ""), extData[m]);
           contact1.saveAsCSV();          
         }  
       }
@@ -638,7 +639,8 @@ function extractDataFromClientLogs(dataLogs) {
               }  
               else continue;
             }
-            const contact1 = new Contact(mytopics[1], mytopics[2], (mytopics[3] != undefined? mytopics[3] : ""), finalData);
+            let tempStartString = timeStamp + "|" + mytopics[1];
+            const contact1 = new Contact(tempStartString, mytopics[2], (mytopics[3] != undefined? mytopics[3] : ""), finalData);
             contact1.saveAsCSV();  
           }
           // else 
